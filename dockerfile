@@ -1,4 +1,4 @@
-FROM Centos:7
+FROM centos:7
 RUN yum install java-openkjdk-11
 ADD https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.95/bin/apache-tomcat-8.5.95.tar.gz ./
 WORKDIR /opt/
